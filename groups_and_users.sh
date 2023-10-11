@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function createGroup() {
 	echo Hello, what Group would you like to create?
 	read groupName
