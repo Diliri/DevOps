@@ -100,8 +100,8 @@ sudo systemctl restart wildfly
 # НАЧАЛОСЬ !!!
 sudo apt-get install git 
 git clone https://github.com/Diliri/DevOps.git
-cd DevOps/
-./mvnw package
+cd git-homework/DevOps/
+./mvnw package # cтягує залежності з Maven central-у
 cd target/
 ll
 mv devops-1.0-SNAPSHOT.war app.war
